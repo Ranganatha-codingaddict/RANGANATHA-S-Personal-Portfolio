@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="!scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranganatha S | Portfolio</title>
+    <meta name="description" content="Portfolio of Ranganatha S, a passionate Full Stack Developer specializing in Java, Spring Boot, and modern web technologies." />
+    <meta property="og:title" content="Ranganatha S | Portfolio" />
+    <meta property="og:description" content="Portfolio of Ranganatha S, a passionate Full Stack Developer specializing in Java, Spring Boot, and modern web technologies." />
+    <meta property="og:image" content="https://image2url.com/images/1757750962461-114775c3-cc7f-4618-b825-6335fcc84d0e.jpg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              primary: '#3b82f6', // blue-500
+              'primary-hover': '#2563eb', // blue-600
+              dark: '#111827', // gray-900
+              'dark-secondary': '#1f2937', // gray-800
+              light: '#f9fafb', // gray-50
+              'light-secondary': '#f3f4f6', // gray-100
+            },
+            animation: {
+              'fade-in': 'fadeIn 1s ease-in-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.12",
+    "react-modal": "https://aistudiocdn.com/react-modal@^3.16.1",
+    "react-hook-form": "https://aistudiocdn.com/react-hook-form@^7.52.1"
+  }
+}
+</script>
+<style>
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    z-index: 100;
+  }
+  .ReactModal__Overlay--after-open{
+    opacity: 1;
+  }
+  .ReactModal__Overlay--before-close{
+    opacity: 0;
+  }
+</style>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
